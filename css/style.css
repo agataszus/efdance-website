@@ -45,3 +45,19 @@ body {
   line-height: 1;
   color: #555;
 }
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+.hero-img-box {
+  position: relative;
+}
+
+.hero-img {
+  position: absolute;
+  width: 25%;
+}
