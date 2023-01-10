@@ -123,11 +123,30 @@ body {
 
 .hero-img-box {
   position: relative;
+  height: 57rem;
 }
 
 .hero-img {
   position: absolute;
-  width: 25%;
+}
+
+.hero-img-1 {
+  width: 45%;
+  top: 0;
+  left: 20%;
+}
+
+.hero-img-2 {
+  width: 55%;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+}
+
+.hero-img-3 {
+  width: 60%;
+  bottom: 0;
+  left: 0;
 }
 
 .margine-right-sm {
