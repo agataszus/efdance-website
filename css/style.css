@@ -13,10 +13,10 @@ Default: 1
 --- 02 COLORS
 
 Primary: #a61e4d
-Tints:
-Shades:
+Tints: #f6e9ed
+Shades: #951b45
 Accents:
-Greys: #555, 
+Greys: #555, #333
 
 --- 05 SHADOWS
 
@@ -49,8 +49,29 @@ body {
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 9.6rem;
+
   max-width: 130rem;
   margin: 0 auto;
+  height: 57rem;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+  color: #333;
+  margin-bottom: 3.2rem;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
 }
 
 .hero-img-box {
