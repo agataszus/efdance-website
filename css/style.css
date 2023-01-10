@@ -46,6 +46,11 @@ body {
   color: #555;
 }
 
+.section-hero {
+  background-color: #f6e9ed;
+  padding: 9.6rem 0;
+}
+
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
