@@ -375,3 +375,8 @@
 .icon-color {
   stroke: #a61e4d;
 }
+
+.type-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
