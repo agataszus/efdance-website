@@ -14,7 +14,7 @@
 }
 
 .logo {
-  height: 9.6rem;
+  height: 6.4rem;
 }
 
 /**********************************/
@@ -83,23 +83,23 @@
   height: 57rem;
 }
 
-/* .heading-primary-letter-1 {
-  background-image: linear-gradient(#951b45, #a41878);
+.heading-primary-letter-1 {
+  background-image: linear-gradient(#951b45, #bd2b35);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .heading-primary-letter-2 {
-  background-image: linear-gradient(#a41878, #b314ac);
+  background-image: linear-gradient(#bd2b35, #d2371e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .heading-primary-letter-3 {
-  background-image: linear-gradient(#b314ac, #c211df);
+  background-image: linear-gradient(#d2371e, #f84d17);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-} */
+}
 
 .heading-primary-letter-1,
 .heading-primary-letter-2,
