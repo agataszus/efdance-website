@@ -86,8 +86,12 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.margin-bottom {
+  margin-bottom: 4.8rem;
+}
+
 .heading-primary,
-.secondary-heading,
+.heading-secondary,
 .heading-teriary {
   font-weight: 700;
   color: #333;
