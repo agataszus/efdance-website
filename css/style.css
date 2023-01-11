@@ -292,6 +292,18 @@
 .class-card {
   border-radius: 9px;
   box-shadow: 0 2.4rem 3.6rem 0 rgba(0, 0, 0, 0.12);
+
+  transition: transform 0.5s;
+}
+
+.class-card:hover {
+  transform: translateY(-1.2rem);
+}
+
+.class-img {
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  width: 100%;
 }
 
 .classes-content {
@@ -379,4 +391,29 @@
 .type-icon {
   width: 2.4rem;
   height: 2.4rem;
+}
+
+.see-all-box {
+  display: flex;
+  justify-content: center;
+}
+
+.see-all-link:link,
+.see-all-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #a61e4d;
+  border-bottom: 1px solid #a61e4d;
+  padding-bottom: 2px;
+
+  transition: all 0.3s;
+}
+
+.see-all-link:hover {
+  border-bottom: none;
+}
+
+.see-all-link:active {
+  box-shadow: 0 0 0 0.8rem #d38fa6;
 }
