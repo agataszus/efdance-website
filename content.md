@@ -30,6 +30,8 @@ Performance oportunities: We allow our students to showcase their skills and gai
 
 [Show big app images]
 
+Your daily dose of dancing in 3 simple steps
+
 Step 1: Select Your Classes
 
 Firstly, you will be prompted to browse through the different dance classes offered by the school, such as ballet, jazz, hip-hop, and contemporary. You can select the classes that you're interested in taking and filter the available classes by level, schedule, or instructor to find the perfect fit for you.
