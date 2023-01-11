@@ -348,3 +348,30 @@
   justify-content: flex-start;
   gap: 2rem;
 }
+
+.classes-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.classes-type {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.features-icon {
+  fill: #a61e4d;
+  stroke: #a61e4d;
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.icon-color {
+  stroke: #a61e4d;
+}
