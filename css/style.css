@@ -288,3 +288,63 @@
   text-align: center;
   margin-bottom: 9.6rem;
 }
+
+.class-card {
+  border-radius: 9px;
+  box-shadow: 0 2.4rem 3.6rem 0 rgba(0, 0, 0, 0.12);
+}
+
+.classes-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.types-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.students-type {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #333;
+  border-radius: 100px;
+}
+
+.adults {
+  background-color: #f7e658;
+}
+
+.teenagers {
+  background-color: #f7aace;
+}
+
+.children {
+  background-color: #a1e5f2;
+}
+
+.classes-name {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 3.2rem;
+}
+
+.class-features {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.class-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
