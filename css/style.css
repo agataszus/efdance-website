@@ -175,6 +175,35 @@
 }
 
 /**********************************/
+/* FEATURED IN SECTION */
+/**********************************/
+
+.featured-in-section {
+  padding: 4.8rem 0 3.6rem 0;
+}
+
+.featured-in-heading {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #888;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+
+.featured-logos-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.featured-logo {
+  height: 4.4rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
+
+/**********************************/
 /* HOW IT WORKS SECTION */
 /**********************************/
 
