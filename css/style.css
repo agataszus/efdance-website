@@ -471,3 +471,45 @@
 .see-all-link:active {
   box-shadow: 0 0 0 0.8rem #d38fa6;
 }
+
+/**********************************/
+/* TESTIMONIALS SECTION */
+/**********************************/
+
+.testimonials-section {
+  background-color: #f6e9ed;
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials-container {
+  display: block;
+  padding: 9.6rem;
+}
+
+.testimonials-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.8rem 8rem;
+}
+
+.testimonial-img {
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 100px;
+  margin-bottom: 12px;
+}
+
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 1.6rem;
+}
+
+.testimonial-name {
+  font-size: 1.6rem;
+  color: #686868;
+}
