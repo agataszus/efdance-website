@@ -120,7 +120,7 @@ Monthly membership: $120
 
 ### Contact information
 
-Address: 48-38 65th Pl, Queens, NY 11377, New York
+Address: 48-38 65th Pl lok.45, Queens, NY 11377
 Phone: 437-629-6301
 Email: hello@efdance.com
 
