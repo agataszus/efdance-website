@@ -355,18 +355,18 @@
 
 .class-card {
   border-radius: 9px;
-  box-shadow: 0 2.4rem 3.6rem 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2.4rem 3.6rem rgba(0, 0, 0, 0.12);
+  overflow: hidden;
 
   transition: transform 0.5s;
 }
 
 .class-card:hover {
   transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 4.8rem rgba(0, 0, 0, 0.1);
 }
 
 .class-img {
-  border-top-left-radius: 9px;
-  border-top-right-radius: 9px;
   width: 100%;
 }
 
@@ -441,20 +441,10 @@
   gap: 2rem;
 }
 
-.features-icon {
-  fill: #a61e4d;
-  stroke: #a61e4d;
-  width: 2.4rem;
-  height: 2.4rem;
-}
-
-.icon-color {
-  stroke: #a61e4d;
-}
-
 .type-icon {
   width: 2.4rem;
   height: 2.4rem;
+  color: #a61e4d;
 }
 
 .see-all-box {
@@ -468,14 +458,14 @@
   text-decoration: none;
   font-size: 1.8rem;
   color: #a61e4d;
-  border-bottom: 1px solid #a61e4d;
+  border-bottom: 1px solid currentColor;
   padding-bottom: 2px;
 
   transition: all 0.3s;
 }
 
 .see-all-link:hover {
-  border-bottom: none;
+  border-bottom: 1px solid transparent;
 }
 
 .see-all-link:active {

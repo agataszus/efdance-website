@@ -86,10 +86,6 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.margin-bottom {
-  margin-bottom: 4.8rem;
-}
-
 .heading-primary,
 .heading-secondary,
 .heading-teriary {
@@ -136,7 +132,7 @@ body {
   border-radius: 9px;
   cursor: pointer;
 
-  transition: background-color 0.3s;
+  transition: all 0.3s;
 }
 
 .btn--full:link,
@@ -172,4 +168,8 @@ body {
 
 .margine-right-sm {
   margin-right: 1.6rem !important;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
 }
