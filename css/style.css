@@ -534,3 +534,113 @@
 .gallery-img {
   overflow: hidden;
 }
+
+/**********************************/
+/* PRICING SECTION */
+/**********************************/
+
+.prices-section {
+  padding: 9.6rem 0;
+}
+
+.pricing-card {
+  display: block;
+  padding: 4.6rem;
+  border: 2px solid #f6e9ed;
+  border-radius: 9px;
+  position: relative;
+  height: 58rem;
+}
+
+.pricing-card-best {
+  background-color: #f6e9ed;
+  overflow: hidden;
+}
+
+.pricing-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+.pricing-name {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #951b45;
+  margin-bottom: 3.2rem;
+}
+
+.price {
+  font-size: 6.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
+
+.price-symbol {
+  font-size: 3.6rem;
+  margin-right: 8px;
+}
+
+.pricing-description {
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  color: #686868;
+}
+
+.pricing-attributes {
+  list-style: none;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  color: #555;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.pricing-attributes li {
+  display: flex;
+  gap: 1.6rem;
+  align-items: flex-start;
+}
+
+.price-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #951b45;
+  flex-shrink: 0;
+}
+
+.price-btn {
+  position: absolute;
+  left: 50%;
+  bottom: 3.6rem;
+  transform: translate(-50%, 0);
+}
+
+.price-btn:link,
+.price-btn:visited,
+.price-btn:hover,
+.price-btn:active {
+  font-size: 1.6rem;
+  padding: 1.2rem 2.4rem;
+}
+
+.price-card-best {
+  display: block;
+  padding: 0.7rem 5.8rem;
+  background-color: #d2371e;
+
+  position: absolute;
+  top: 2rem;
+  right: -4rem;
+  transform: rotate(45deg);
+}
+
+.price-card-best p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+}

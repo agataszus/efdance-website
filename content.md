@@ -85,20 +85,20 @@ Come and try! You can take part in any classes that you like, first time for fre
 Single class: $15
 
 - 1 class = 75 minutes
-- choose of many types of classses
 - come with friend and get 20% discount for next class
 
 Package of classes: $70
 
 - 6 classes - 75 minutes each
-- 1 time access to our relaxation zone
 - 10% discount in our store
+- 1 time access to our relaxation zone
 
 Monthly membership: $120
 
 - carnet open: as many classes as you like
-- relaxation zone acces
 - 20% discount in our store
+- relaxation zone acces
+- unlimited gym acces
 
 ### Photo gallery
 
