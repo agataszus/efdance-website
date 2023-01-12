@@ -513,3 +513,24 @@
   font-size: 1.6rem;
   color: #686868;
 }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1.6rem;
+  gap: 1.6rem;
+}
+
+.gallery-img img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.gallery-img img:hover {
+  transform: scale(1.1);
+}
+
+.gallery-img {
+  overflow: hidden;
+}
