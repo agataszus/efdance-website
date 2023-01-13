@@ -681,3 +681,88 @@
   padding: 1.6rem;
   margin-bottom: 2.4rem;
 }
+
+/**********************************/
+/* CTA SECTION */
+/**********************************/
+
+.cta-section {
+  padding: 9.6rem 0;
+}
+.cta {
+  display: grid;
+  grid-template-columns: 70fr 30fr;
+  border-radius: 9px;
+  overflow: hidden;
+
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(166, 30, 77, 0.6),
+    rgb(248, 77, 23, 0.6)
+  );
+  box-shadow: 0 2.4rem 3.6rem rgba(0, 0, 0, 0.15);
+}
+
+.cta-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: #320917;
+}
+
+.cta-heading {
+  color: inherit;
+  margin-bottom: 3.2rem;
+}
+
+.cta-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  color: inherit;
+  margin-bottom: 4.8rem;
+}
+
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgb(166, 30, 77, 0.3),
+      rgb(248, 77, 23, 0.3)
+    ),
+    url("../img/dancing.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  background-color: #f6e9ed;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px, rgb(0, 0, 0, 0.1);
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
+
+.btn--form {
+  align-self: end;
+  padding: 1.2rem;
+}
