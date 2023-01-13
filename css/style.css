@@ -11,6 +11,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 9.6rem;
+
+  position: relative;
 }
 
 .logo {
@@ -25,7 +27,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .main-nav-link:link,
@@ -62,6 +64,26 @@
   box-shadow: 0 0 0 0.8rem #dba5b8;
 }
 
+/* MOBILE */
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
 /**********************************/
 /* HERO SECTION */
 /**********************************/
@@ -80,7 +102,6 @@
   max-width: 136.4rem;
   margin: 0 auto;
   padding: 0 3.2rem;
-  height: 57rem;
 }
 
 .heading-primary-letter-1 {
@@ -146,8 +167,15 @@
   font-weight: 700;
 }
 
+.hero-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .hero-img-box {
   position: relative;
+  width: 100%;
   height: 57rem;
 }
 
@@ -595,6 +623,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
+  margin-bottom: 4.6rem;
 }
 
 .pricing-attributes li {
@@ -612,7 +641,6 @@
 
 .price-btn-box {
   text-align: center;
-  margin-top: 4.6rem;
 }
 
 .price-btn {

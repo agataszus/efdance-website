@@ -15,6 +15,7 @@
 
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
 
     <title>EFDance Studio</title>
   </head>
@@ -38,19 +39,24 @@
           </li>
         </ul>
       </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
     <main>
       <section class="section-hero">
         <div class="hero">
           <div class="hero-text-box">
-            <h1 class="heading-primary">
-              <span class="heading-primary-letter-1">E</span>xpres yourself,<br /><span
-                class="heading-primary-letter-2"
-                >F</span
-              >eel the music,<br /><span class="heading-primary-letter-3"
-                >D</span
-              >ance with us
-            </h1>
+            <div class="hero-heading-box">
+              <h1 class="heading-primary">
+                <span class="heading-primary-letter-1">E</span>xpres
+                yourself,<br /><span class="heading-primary-letter-2">F</span
+                >eel the music,<br /><span class="heading-primary-letter-3"
+                  >D</span
+                >ance with us
+              </h1>
+            </div>
             <p class="hero-description">
               Dance classes in many styles, so everyone will find the one that
               expresses them the most. The passion for dancing is what brings
@@ -97,22 +103,24 @@
               </p>
             </div>
           </div>
-          <div class="hero-img-box">
-            <img
-              src="img/hero/hero-1.jpg"
-              class="hero-img hero-img-1"
-              alt="Ballet dancer"
-            />
-            <img
-              src="img/hero/hero-2.jpg"
-              class="hero-img hero-img-2"
-              alt="Performing group of dancers"
-            />
-            <img
-              src="img/hero/hero-3.jpg"
-              class="hero-img hero-img-3"
-              alt="Dancing couple"
-            />
+          <div class="hero-img-container">
+            <div class="hero-img-box">
+              <img
+                src="img/hero/hero-1.jpg"
+                class="hero-img hero-img-1"
+                alt="Ballet dancer"
+              />
+              <img
+                src="img/hero/hero-2.jpg"
+                class="hero-img hero-img-2"
+                alt="Performing group of dancers"
+              />
+              <img
+                src="img/hero/hero-3.jpg"
+                class="hero-img hero-img-3"
+                alt="Dancing couple"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -389,7 +397,7 @@
             </figure>
           </div>
         </div>
-        <div class="gallery grid grid--3-cols">
+        <div class="gallery">
           <figure class="gallery-img">
             <img
               src="img/gallery/gallery-1.jpg"
@@ -485,7 +493,7 @@
           </h2>
         </div>
         <div class="container grid grid--3-cols margin-bottom-md">
-          <div class="pricing-card">
+          <div class="pricing-card pricing-card-2">
             <header class="pricing-header">
               <p class="pricing-name">Single class</p>
               <p class="price"><span class="price-symbol">$</span>15</p>
@@ -662,7 +670,7 @@
                   <input
                     id="full-name"
                     type="text"
-                    placeholder="Your name"
+                    placeholder="Your Name"
                     required
                   />
                 </div>
