@@ -544,12 +544,12 @@
 }
 
 .pricing-card {
-  display: block;
+  display: grid;
+  flex-direction: column;
   padding: 4.6rem;
   border: 2px solid #f6e9ed;
   border-radius: 9px;
   position: relative;
-  height: 58rem;
 }
 
 .pricing-card-best {
@@ -610,19 +610,14 @@
   flex-shrink: 0;
 }
 
-.price-btn {
-  position: absolute;
-  left: 50%;
-  bottom: 3.6rem;
-  transform: translate(-50%, 0);
+.price-btn-box {
+  text-align: center;
+  margin-top: 4.6rem;
 }
 
-.price-btn:link,
-.price-btn:visited,
-.price-btn:hover,
-.price-btn:active {
-  font-size: 1.6rem;
-  padding: 1.2rem 2.4rem;
+.price-btn {
+  justify-self: center;
+  align-self: end;
 }
 
 .price-card-best {
@@ -643,4 +638,46 @@
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.75px;
+}
+
+.features-container {
+  row-gap: 3.2rem;
+}
+
+.feature-box {
+  padding: 1.8rem;
+  border-radius: 9px;
+  box-shadow: 0 2.4rem 3.6rem rgb(248, 77, 23, 0.1);
+}
+
+.features-subtitle {
+  text-align: center;
+  font-size: 2rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 9.6rem;
+}
+
+.feature-tytle {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1.8rem;
+  line-height: 1.2;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+.feature-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e07362;
+  background-color: rgb(255, 232, 204, 0.6);
+  border-radius: 100px;
+  padding: 1.6rem;
+  margin-bottom: 2.4rem;
 }

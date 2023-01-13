@@ -173,3 +173,7 @@ body {
 .margin-bottom-md {
   margin-bottom: 4.8rem !important;
 }
+
+strong {
+  font-weight: 500;
+}
