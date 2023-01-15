@@ -19,6 +19,25 @@
   height: 6.4rem;
 }
 
+/* Sticky Navigation */
+
+.sticky .header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: rgb(255, 255, 255, 0.97);
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.6rem rgb(0, 0, 0, 0.03);
+}
+
+.sticky .section-hero {
+  margin-top: 9.6rem;
+}
+
 /**********************************/
 /* NAVIGATION */
 /**********************************/
@@ -831,6 +850,7 @@
 .social-links {
   display: flex;
   gap: 2.4rem;
+  list-style: none;
 }
 
 .social-icon {
