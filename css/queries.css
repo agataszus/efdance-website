@@ -160,11 +160,13 @@
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
-    z-index: 1;
+    z-index: 9999;
   }
 
   .main-nav {
-    background-color: rgb(255, 255, 255, 0.97);
+    background-color: rgb(255, 255, 255, 0.9);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
     position: absolute;
     top: 0;
     left: 0;
@@ -286,7 +288,7 @@
 }
 
 /**********************************/
-/* BELOW 528px (SmalerTablets) */
+/* BELOW 528px (Mobile phones) */
 /**********************************/
 
 @media (max-width: 33em) {
@@ -305,7 +307,7 @@
   }
 
   .heading-primary {
-    font-size: 4.4rem;
+    font-size: 3.8rem;
   }
 
   .btn,
