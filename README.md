@@ -10,7 +10,7 @@ To visit the website go to [EFDance-website](https://agataszus.github.io/efdance
 
 **Header Layout**
 
-![Image](http://url/img/header-layout.png)
+![Header Layout](img/header-layout.png)
 
 ## Built With
 
