@@ -755,7 +755,7 @@
       rgb(166, 30, 77, 0.3),
       rgb(248, 77, 23, 0.3)
     ),
-    url("../img/dancing.jpg");
+    url("../img/dancing.webp");
   background-size: cover;
   background-position: center;
 }
