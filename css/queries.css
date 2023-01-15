@@ -375,6 +375,63 @@
   }
 }
 
+/**********************************/
+/* Fixing flexbox gap property missing in some Safari versions */
+/**********************************/
+
+.no-flexbox-gap .main-nav-list li:not(:last-child) {
+  margin-right: 4.8rem;
+}
+
+.no-flexbox-gap .classes-students-imgs {
+  margin-right: 1.6rem;
+}
+
+.no-flexbox-gap .types-box span:not(:last-child) {
+  margin-right: 0.4rem;
+}
+
+.no-flexbox-gap .class-item:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.no-flexbox-gap .type-icon {
+  margin-right: 2rem;
+}
+
+.no-flexbox-gap .classes-type:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.no-flexbox-gap .pricing-attributes li:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.no-flexbox-gap .price-icon {
+  margin-right: 1.6rem;
+}
+
+.no-flexbox-gap .social-links li:not(:last-child) {
+  margin-right: 2.4rem;
+}
+
+.no-flexbox-gap .footer-list li:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+
+@media (max-width: 75em) {
+  .no-flexbox-gap .main-nav-list li:not(:last-child) {
+    margin-right: 3.2rem;
+  }
+}
+
+@media (max-width: 60em) {
+  .no-flexbox-gap .main-nav-list li:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 4.8rem;
+  }
+}
+
 /* FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
