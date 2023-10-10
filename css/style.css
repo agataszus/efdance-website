@@ -7,16 +7,22 @@
   height: 9.6rem;
   background-color: #f6e9ed;
   color: #333;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 9.6rem;
 
   position: relative;
 }
 
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 136.4rem;
+  padding: 0 3.2rem;
+  height: 100%;
+}
+
 .logo {
-  height: 6.4rem;
+  height: 5.6rem;
 }
 
 /* Sticky Navigation */
